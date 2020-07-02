@@ -59,6 +59,7 @@ a:hover, a:focus {
 }
 p{
     color: #ffffff;
+    margin:5px;
 }
 
 .butt{
@@ -70,6 +71,7 @@ p{
     height: 70px;
     margin-right: 5%;
     color: white;
+    margin: 5px
 }
 @media only screen and (max-width:700px){
   .butt{
@@ -87,7 +89,7 @@ p{
 
 .white-text {
     color: #FFF;
-    margin:0px
+    margin:5px
 }
 .djsakjd{
     padding:0px
@@ -1589,7 +1591,7 @@ height: 100% !important;
 
 .column {
   float: left;
-  width: 50%;
+  width: 25%;
   padding: 5px;
   height: auto;
 }
@@ -1632,7 +1634,7 @@ height: 100% !important;
   letter-spacing: 1px;
 }
 .img{
-    width: 150px;
+    width: 160px;
     border-radius: 4%;
 }
 .img1{
@@ -1687,11 +1689,11 @@ height: 100% !important;
     }
     .img1{
         width: 150px;
-        border-radius: 50%;
+        border-radius: 5%;
     }
     .img{
         width: 150px;
-        border-radius: 50%;
+        border-radius: 5%;
     }
     .team-title {
       position: static;
@@ -2484,7 +2486,7 @@ height: 100% !important;
 
 
 .card{
-    height: 350px;
+    height: 210px;
     width: 300px;
 }
 .txt{
