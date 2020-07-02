@@ -2527,7 +2527,7 @@ height: 100% !important;
 
 .laundryequipments{
     height: 200% !important;
-    width: 200% !important
+    width: 200% !important;
      margin-right: 10%;
      margin-left: 10%
  }
@@ -2547,4 +2547,67 @@ height: 100% !important;
         margin-top:25%
     }
 }
+}
+
+.countdown {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height:200px;
+}
+
+.box {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height:120px;
+  width:120px;
+  background-color: rgb(27,18,57);
+  margin:10px;
+  font-size:18px;
+  color:white;
+  padding:5px;
+  border-radius: 4px;   
+}
+
+.box span {
+  font-size: 18px;
+  font-weight: 400;
+  color:#8C3BFF;
+  text-align: center;
+  letter-spacing: 2px;      
+}
+@media only screen and (max-width:1000px){
+  .countdown {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height:200px;
+  }
+  
+  .box {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height:120px;
+    width:80px;
+    background-color: rgb(27,18,57);
+    margin:10px;
+    font-size:18px;
+    color:white;
+    padding:5px;
+    border-radius: 4px;   
+  }
+  
+  .box span {
+    font-size: 12px;
+    font-weight: 400;
+    color:#8C3BFF;
+    text-align: center;
+    letter-spacing: 2px;      
+  }
 }
