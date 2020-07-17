@@ -1591,19 +1591,19 @@ height: 100% !important;
 
 .column {
   float: left;
-  width: 25%;
+  width: 33.33%;
   padding: 5px;
   height: auto;
 }
 .column2 {
   float: left;
-  width: 25%;
+  width: 33.33%;
   padding: 5px;
   height: auto;
 }
 .column3 {
   float: left;
-  width: 20%;
+  width: 33.33%;
   padding: 5px;
   height: auto;
 }
