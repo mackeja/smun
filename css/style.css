@@ -2149,6 +2149,7 @@ height: 100% !important;
   border-radius: 5%;
   background-color: #1a1a1a;
   transition: 0.3s;
+  position: relative;
 }
 .column4:hover{
   box-shadow: 4px 7px #000000;
@@ -2174,10 +2175,22 @@ height: 100% !important;
   border-radius: 5%;
   background-color: #1a1a1a;
   transition: 0.3s;
-
+  position: relative;
 }
 .column6:hover{
   box-shadow: 4px 7px #000000;
+}
+.bgg{
+  color: #8C3BFF;
+  font-size: 16px;
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  cursor: pointer;
+  transition: 0.4s linear;
+}
+.bgg:hover{
+color:rgb(111, 52, 195)
 }
 .column7 {
   float: left;
@@ -2363,7 +2376,9 @@ height: 100% !important;
   text-decoration: none;
   cursor: pointer;
 }
-
+.card{
+  min-height:300px
+}
 
 
 /* 100% Image Width on Smaller Screens */
@@ -2375,10 +2390,8 @@ height: 100% !important;
   float: left;
   width: 100%;
   height: auto;
-  margin-left: 10%
-
-
-}
+  margin-left: 10%;
+  }
   .column5 {
   float: left;
   width: 100%;
